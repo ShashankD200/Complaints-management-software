@@ -1,25 +1,37 @@
-Requirements To run this app :
+ Requirements: 
 
--Your machine must have xampp installed on it.
+- Ensure that XAMPP is installed on your machine.
 
-How to run the app :
+ How to Run the App: 
 
--Copy this complete folder into xampp/htdocs/
--Now start the xampp control panel and start apache, MySQL server
--Now open MySQL database, then create a new database and copy the database name
--Inside this database import the sql file that is provided in this folder /sql/
--Now in this folder structure open the backend/config.php file and change name of $database with your database name
--In you config.php file required variables $servername,$username and $password is added. Please change them according to your system.
--Now project is ready to run, open the chrome and paste the URL http://localhost/complaints-management-system/  or according to machine you may need to change this.
--Further you can update sendmail.php (backend/mailer_code/sendmail.php) file with you email and app password 
+1. Copy the entire folder and paste it into the 'xampp/htdocs/' directory.
+2. Start the XAMPP control panel and initiate Apache and MySQL servers.
+3. Open the MySQL database, create a new database, and note down the database name.
+4. Import the provided SQL file located in the 'sql/' folder into the newly created database.
+5. In the 'backend/config.php' file, update the `$database` variable with your database name.
+6. Adjust the values of `$servername`, `$username`, and `$password` in the config.php file according to your system.
+7. The project is now set up. Open Chrome and enter the URL 'http://localhost/complaints-management-system/' (modify if needed).
+8. Optionally, update the 'sendmail.php' file in 'backend/mailer_code/' with your email and app password.
 
-Folder structure:
--Backend folder handle all the backend work. In backend folder there are admin folder(That manage the backend for admin), login_signup folder(That manage login and signup activity), and user folder (that manage the user activity)
--Frontend folder handle all the frontend of the project inside this there are admin folder (All the files related to admin), user folder (all the files related to user)
--SQL folder contains the sql file for the database
+ Folder Structure: 
 
-Live Example:
+-  Backend:  Manages all backend operations, including admin, login/signup, and user activities.
+  -  Admin:  Handles backend functions for admin.
+  -  Login_Signup:  Manages login and signup activities.
+  -  User:  Manages user activities.
 
-- Credentials for Admin : email - superadmin@gmail.com  password - Admin@123
-- Credentials for user : email - amar@gmail.com  password - Test@123
+-  Frontend:  Manages the entire frontend of the project.
+  -  Admin:  Contains files related to admin functionality.
+  -  User:  Contains files related to user functionality.
 
+-  SQL:  Contains the SQL file for database setup.
+
+ Live Example: 
+
+-  Admin Credentials:  
+  - Email: superadmin@gmail.com 
+  - Password: Admin@123
+
+-  User Credentials: 
+  - Email: amar@gmail.com
+  - Password: Test@123
