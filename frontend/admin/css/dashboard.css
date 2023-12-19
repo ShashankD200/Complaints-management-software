@@ -1,0 +1,16 @@
+@import url(./custom.css);
+
+/* Bootstrap Icons */
+@import url("https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.4.0/font/bootstrap-icons.min.css");
+
+.overflow_style{
+  
+    overflow: auto;
+}
+  .overflow_style::-webkit-scrollbar {
+    display: none;
+  }
+  .overflow_style{
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
